@@ -51,8 +51,7 @@ rc=0
 if [[ -z "${INPUT}" ]]; then
     echo "run.sh: --input required" >&2
     rc=1
-fi
-if [ ! -f "${INPUT}" ]; then
+elif [ ! -f "${INPUT}" ]; then
     echo "run.sh: ${INPUT}: file is not exist" >&2
     rc=1
 fi
@@ -67,8 +66,7 @@ fi
 if [[ -z "${VAL_FILE}" ]]; then
     echo "run.sh: --val_file required" >&2
     rc=1
-fi
-if [[ "${TRAIN_FILE}" = "${VAL_FILE}" ]]; then
+elif [[ "${TRAIN_FILE}" = "${VAL_FILE}" ]]; then
     echo "run.sh: --train_file and --val_file must be different" >&2
     rc=1
 fi
