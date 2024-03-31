@@ -31,7 +31,7 @@ if [ $should_show_help = true ]; then
     echo
     echo "Parameters:"
     echo "    --input [PATH]"
-    echo "    --train_ratio [PATH]"
+    echo "    --train_ratio [PERCENT]"
     echo "    --shuffle"
     echo "    --train_file [PATH]"
     echo "    --val_file [PATH]"
