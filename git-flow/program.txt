@@ -1,3 +1,12 @@
 Feature 1
 Feature 1 have some results
 Fix to release
+Not included in 1.0 release
+Feature 1 have some updates
+Feature 1
+Feature 1 finish
+
+Feature 2
+Feature 2 would be complex
+Feature 2 in progress
+Feature 2 finish
