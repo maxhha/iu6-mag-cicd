@@ -1,4 +1,7 @@
 Feature 1
 Feature 1 have some results
+Fix to release
+Not included in 1.0 release
 Feature 1 have some updates
 Feature 1
+
