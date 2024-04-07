@@ -1,2 +1,3 @@
 Feature 1
 Feature 1 have some results
+Not included in 1.0 release
