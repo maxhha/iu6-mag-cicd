@@ -17,9 +17,9 @@ def test_not_is_leap(year):
 
 
 @pytest.mark.parametrize("year", [-10, 0])
-@pytest.mark.xfail(raises=AttributeError)
 def test_is_leap_exception(year):
-    is_leap(year)
+    with pytest.raises(AttributeError):
+        is_leap(year)
 
 
 @pytest.mark.parametrize(
@@ -38,21 +38,12 @@ def test_get_month_days(year, month, expected):
     assert expected == get_month_days(year, month)
 
 
-@pytest.mark.xfail(reason="Strange year")
-@pytest.mark.parametrize(
-    "year,month,expected",
-    [
-        (1930, 1, 31), (1930,  2, 28), (1930,  3, 31), (1930,  4, 30),
-        (1930, 5, 31), (1930,  6, 30), (1930,  7, 31), (1930,  8, 31),
-        (1930, 9, 30), (1930, 10, 31), (1930, 11, 30), (1930, 12, 31)
-    ],
-)
-def test_get_month_days_at_strange_year(year, month, expected):
-    assert expected == get_month_days(year, month)
+@pytest.mark.parametrize("month", range(1, 13))
+def test_get_month_days_at_strange_year(month):
+    assert 30 == get_month_days(1930, month)
 
 
-@pytest.mark.parametrize("year", [-1, 0, 2023])
 @pytest.mark.parametrize("month", [-1, 0, 13, 14])
-@pytest.mark.xfail(raises=AttributeError)
-def test_get_month_days_exception(year, month):
-    get_month_days(year, month)
+def test_get_month_days_exception(month):
+    with pytest.raises(AttributeError):
+        get_month_days(2024, month)
