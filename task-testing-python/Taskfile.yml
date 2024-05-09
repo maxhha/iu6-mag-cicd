@@ -14,6 +14,7 @@ tasks:
       PYTHONPATH: src
     cmds:
       - "{{.PYTHON}} -m pytest --cov src tests"
+      - "env/bin/coverage html"
     sources:
       - src/**/*.py
       - tests/**/*.py
