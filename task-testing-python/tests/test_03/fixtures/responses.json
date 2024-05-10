@@ -1,0 +1,3834 @@
+{
+    "http://dataservice.accuweather.com/locations/v1/cities/search?q=London": [
+        {
+            "Version": 1,
+            "Key": "328328",
+            "Type": "City",
+            "Rank": 10,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "EC4A 2",
+            "Region": {
+                "ID": "EUR",
+                "LocalizedName": "Europe",
+                "EnglishName": "Europe"
+            },
+            "Country": {
+                "ID": "GB",
+                "LocalizedName": "United Kingdom",
+                "EnglishName": "United Kingdom"
+            },
+            "AdministrativeArea": {
+                "ID": "LND",
+                "LocalizedName": "London",
+                "EnglishName": "London",
+                "Level": 1,
+                "LocalizedType": "London Borough",
+                "EnglishType": "London Borough",
+                "CountryID": "GB"
+            },
+            "TimeZone": {
+                "Code": "BST",
+                "Name": "Europe/London",
+                "GmtOffset": 1.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-10-27T01:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 51.514,
+                "Longitude": -0.107,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 18.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 59.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 0,
+                    "LocalizedName": "England",
+                    "EnglishName": "England"
+                },
+                {
+                    "Level": 3,
+                    "LocalizedName": "Castle Baynard",
+                    "EnglishName": "Castle Baynard"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "Radar",
+                "TidalForecast"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "55489",
+            "Type": "City",
+            "Rank": 35,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "N6B",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "CA",
+                "LocalizedName": "Canada",
+                "EnglishName": "Canada"
+            },
+            "AdministrativeArea": {
+                "ID": "ON",
+                "LocalizedName": "Ontario",
+                "EnglishName": "Ontario",
+                "Level": 1,
+                "LocalizedType": "Province",
+                "EnglishType": "Province",
+                "CountryID": "CA"
+            },
+            "TimeZone": {
+                "Code": "EDT",
+                "Name": "America/Toronto",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T06:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 42.983,
+                "Longitude": -81.244,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 247.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 810.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Middlesex",
+                    "EnglishName": "Middlesex"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "333298",
+            "Type": "City",
+            "Rank": 75,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "40741",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "KY",
+                "LocalizedName": "Kentucky",
+                "EnglishName": "Kentucky",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "EDT",
+                "Name": "America/New_York",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T06:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 37.129,
+                "Longitude": -84.083,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 392.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 1285.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Laurel",
+                    "EnglishName": "Laurel"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "335012",
+            "Type": "City",
+            "Rank": 75,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "43140",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "OH",
+                "LocalizedName": "Ohio",
+                "EnglishName": "Ohio",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "EDT",
+                "Name": "America/New_York",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T06:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 39.886,
+                "Longitude": -83.448,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 319.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 1046.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Madison",
+                    "EnglishName": "Madison"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "1123888",
+            "Type": "City",
+            "Rank": 85,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "",
+            "Region": {
+                "ID": "OCN",
+                "LocalizedName": "Oceania",
+                "EnglishName": "Oceania"
+            },
+            "Country": {
+                "ID": "KI",
+                "LocalizedName": "Kiribati",
+                "EnglishName": "Kiribati"
+            },
+            "AdministrativeArea": {
+                "ID": "L",
+                "LocalizedName": "Line Islands",
+                "EnglishName": "Line Islands",
+                "Level": 1,
+                "LocalizedType": "Unit",
+                "EnglishType": "Unit",
+                "CountryID": "KI"
+            },
+            "TimeZone": {
+                "Code": "LINT",
+                "Name": "Pacific/Kiritimati",
+                "GmtOffset": 14.0,
+                "IsDaylightSaving": false,
+                "NextOffsetChange": null
+            },
+            "GeoPosition": {
+                "Latitude": 1.984,
+                "Longitude": -157.475,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 0.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 0.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Radar",
+                "TidalForecast"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2123173",
+            "Type": "City",
+            "Rank": 85,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "72847",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "AR",
+                "LocalizedName": "Arkansas",
+                "EnglishName": "Arkansas",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 35.329,
+                "Longitude": -93.253,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 116.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 380.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Pope",
+                    "EnglishName": "Pope"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2154402",
+            "Type": "City",
+            "Rank": 85,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "93618",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "CA",
+                "LocalizedName": "California",
+                "EnglishName": "California",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "PDT",
+                "Name": "America/Los_Angeles",
+                "GmtOffset": -7.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T09:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 36.476,
+                "Longitude": -119.443,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 102.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 334.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Tulare",
+                    "EnglishName": "Tulare"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2280056",
+            "Type": "City",
+            "Rank": 105,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "",
+            "Region": {
+                "ID": "EUR",
+                "LocalizedName": "Europe",
+                "EnglishName": "Europe"
+            },
+            "Country": {
+                "ID": "SJ",
+                "LocalizedName": "Svalbard And Jan Mayen",
+                "EnglishName": "Svalbard And Jan Mayen"
+            },
+            "AdministrativeArea": {
+                "ID": "21",
+                "LocalizedName": "Svalbard",
+                "EnglishName": "Svalbard",
+                "Level": 1,
+                "LocalizedType": "County",
+                "EnglishType": "County",
+                "CountryID": "SJ"
+            },
+            "TimeZone": {
+                "Code": "CEST",
+                "Name": "Arctic/Longyearbyen",
+                "GmtOffset": 2.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-10-27T01:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 78.966,
+                "Longitude": 12.092,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 0.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 0.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2148311",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "25126",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "WV",
+                "LocalizedName": "West Virginia",
+                "EnglishName": "West Virginia",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "EDT",
+                "Name": "America/New_York",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T06:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 38.195,
+                "Longitude": -81.369,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 180.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 590.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Kanawha",
+                    "EnglishName": "Kanawha"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2248760",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "53523",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "WI",
+                "LocalizedName": "Wisconsin",
+                "EnglishName": "Wisconsin",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 43.048,
+                "Longitude": -89.013,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 269.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 882.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Dane",
+                    "EnglishName": "Dane"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2634173",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "75684",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "TX",
+                "LocalizedName": "Texas",
+                "EnglishName": "Texas",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 32.231,
+                "Longitude": -94.944,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 155.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 508.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Rusk",
+                    "EnglishName": "Rusk"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "340897",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "76854",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "TX",
+                "LocalizedName": "Texas",
+                "EnglishName": "Texas",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 30.677,
+                "Longitude": -99.576,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 533.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 1748.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Kimble",
+                    "EnglishName": "Kimble"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2203011",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "37727",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "TN",
+                "LocalizedName": "Tennessee",
+                "EnglishName": "Tennessee",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "EDT",
+                "Name": "America/New_York",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T06:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 35.87,
+                "Longitude": -83.002,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 441.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 1446.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Cocke",
+                    "EnglishName": "Cocke"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2242809",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "16127",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "PA",
+                "LocalizedName": "Pennsylvania",
+                "EnglishName": "Pennsylvania",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "EDT",
+                "Name": "America/New_York",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T06:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 41.144,
+                "Longitude": -80.149,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 386.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 1266.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Mercer",
+                    "EnglishName": "Mercer"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2214978",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "44875",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "OH",
+                "LocalizedName": "Ohio",
+                "EnglishName": "Ohio",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "EDT",
+                "Name": "America/New_York",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T06:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 40.91,
+                "Longitude": -82.629,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 330.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 1082.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Richland",
+                    "EnglishName": "Richland"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2127488",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "64491",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "MO",
+                "LocalizedName": "Missouri",
+                "EnglishName": "Missouri",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 40.445,
+                "Longitude": -95.235,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 310.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 1016.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Atchison",
+                    "EnglishName": "Atchison"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2248424",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "55616",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "MN",
+                "LocalizedName": "Minnesota",
+                "EnglishName": "Minnesota",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 47.203,
+                "Longitude": -91.57,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 414.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 1357.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Lake",
+                    "EnglishName": "Lake"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2122624",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "46126",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "IN",
+                "LocalizedName": "Indiana",
+                "EnglishName": "Indiana",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "EDT",
+                "Name": "America/Indiana/Indianapolis",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T06:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 39.626,
+                "Longitude": -85.92,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 237.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 777.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Shelby",
+                    "EnglishName": "Shelby"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2231416",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "36432",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "AL",
+                "LocalizedName": "Alabama",
+                "EnglishName": "Alabama",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 31.298,
+                "Longitude": -87.088,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 86.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 282.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Conecuh",
+                    "EnglishName": "Conecuh"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2255111",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "36064",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "AL",
+                "LocalizedName": "Alabama",
+                "EnglishName": "Alabama",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 32.273,
+                "Longitude": -86.05,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 84.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 275.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Montgomery",
+                    "EnglishName": "Montgomery"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2187826",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "97424",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "OR",
+                "LocalizedName": "Oregon",
+                "EnglishName": "Oregon",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "PDT",
+                "Name": "America/Los_Angeles",
+                "GmtOffset": -7.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T09:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 43.635,
+                "Longitude": -123.093,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 368.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 1207.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Lane",
+                    "EnglishName": "Lane"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "1145972",
+            "Type": "City",
+            "Rank": 600,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "",
+            "Region": {
+                "ID": "AFR",
+                "LocalizedName": "Africa",
+                "EnglishName": "Africa"
+            },
+            "Country": {
+                "ID": "ZA",
+                "LocalizedName": "South Africa",
+                "EnglishName": "South Africa"
+            },
+            "AdministrativeArea": {
+                "ID": "LP",
+                "LocalizedName": "Limpopo",
+                "EnglishName": "Limpopo",
+                "Level": 1,
+                "LocalizedType": "Province",
+                "EnglishType": "Province",
+                "CountryID": "ZA"
+            },
+            "TimeZone": {
+                "Code": "SAST",
+                "Name": "Africa/Johannesburg",
+                "GmtOffset": 2.0,
+                "IsDaylightSaving": false,
+                "NextOffsetChange": null
+            },
+            "GeoPosition": {
+                "Latitude": -24.3,
+                "Longitude": 30.583,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 586.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 1922.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Mopani",
+                    "EnglishName": "Mopani"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "MinuteCast"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "1162514",
+            "Type": "City",
+            "Rank": 600,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "",
+            "Region": {
+                "ID": "CAC",
+                "LocalizedName": "Central America",
+                "EnglishName": "Central America"
+            },
+            "Country": {
+                "ID": "BZ",
+                "LocalizedName": "Belize",
+                "EnglishName": "Belize"
+            },
+            "AdministrativeArea": {
+                "ID": "OW",
+                "LocalizedName": "Orange Walk",
+                "EnglishName": "Orange Walk",
+                "Level": 1,
+                "LocalizedType": "District",
+                "EnglishType": "District",
+                "CountryID": "BZ"
+            },
+            "TimeZone": {
+                "Code": "CST",
+                "Name": "America/Belize",
+                "GmtOffset": -6.0,
+                "IsDaylightSaving": false,
+                "NextOffsetChange": null
+            },
+            "GeoPosition": {
+                "Latitude": 17.983,
+                "Longitude": -88.433,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 21.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 68.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Orange Walk East",
+                    "EnglishName": "Orange Walk East"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "FutureRadar",
+                "MinuteCast",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "904379",
+            "Type": "City",
+            "Rank": 600,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "",
+            "Region": {
+                "ID": "AFR",
+                "LocalizedName": "Africa",
+                "EnglishName": "Africa"
+            },
+            "Country": {
+                "ID": "GQ",
+                "LocalizedName": "Equatorial Guinea",
+                "EnglishName": "Equatorial Guinea"
+            },
+            "AdministrativeArea": {
+                "ID": "LI",
+                "LocalizedName": "Litoral",
+                "EnglishName": "Litoral",
+                "Level": 1,
+                "LocalizedType": "Province",
+                "EnglishType": "Province",
+                "CountryID": "GQ"
+            },
+            "TimeZone": {
+                "Code": "WAT",
+                "Name": "Africa/Malabo",
+                "GmtOffset": 1.0,
+                "IsDaylightSaving": false,
+                "NextOffsetChange": null
+            },
+            "GeoPosition": {
+                "Latitude": 2.283,
+                "Longitude": 9.8,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 110.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 360.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "MinuteCast"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2082737",
+            "Type": "City",
+            "Rank": 600,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "",
+            "Region": {
+                "ID": "MEA",
+                "LocalizedName": "Middle East",
+                "EnglishName": "Middle East"
+            },
+            "Country": {
+                "ID": "IR",
+                "LocalizedName": "Iran",
+                "EnglishName": "Iran"
+            },
+            "AdministrativeArea": {
+                "ID": "13",
+                "LocalizedName": "Sistan and Baluchestan",
+                "EnglishName": "Sistan and Baluchestan",
+                "Level": 1,
+                "LocalizedType": "Province",
+                "EnglishType": "Province",
+                "CountryID": "IR"
+            },
+            "TimeZone": {
+                "Code": "IRST",
+                "Name": "Asia/Tehran",
+                "GmtOffset": 3.5,
+                "IsDaylightSaving": false,
+                "NextOffsetChange": null
+            },
+            "GeoPosition": {
+                "Latitude": 25.618,
+                "Longitude": 60.487,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 253.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 829.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "FutureRadar",
+                "MinuteCast"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "930167",
+            "Type": "City",
+            "Rank": 600,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "",
+            "Region": {
+                "ID": "AFR",
+                "LocalizedName": "Africa",
+                "EnglishName": "Africa"
+            },
+            "Country": {
+                "ID": "NG",
+                "LocalizedName": "Nigeria",
+                "EnglishName": "Nigeria"
+            },
+            "AdministrativeArea": {
+                "ID": "DE",
+                "LocalizedName": "Delta",
+                "EnglishName": "Delta",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "NG"
+            },
+            "TimeZone": {
+                "Code": "WAT",
+                "Name": "Africa/Lagos",
+                "GmtOffset": 1.0,
+                "IsDaylightSaving": false,
+                "NextOffsetChange": null
+            },
+            "GeoPosition": {
+                "Latitude": 5.717,
+                "Longitude": 5.783,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 32.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 104.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "MinuteCast"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "1796640",
+            "Type": "City",
+            "Rank": 600,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "",
+            "Region": {
+                "ID": "SAM",
+                "LocalizedName": "South America",
+                "EnglishName": "South America"
+            },
+            "Country": {
+                "ID": "VE",
+                "LocalizedName": "Venezuela",
+                "EnglishName": "Venezuela"
+            },
+            "AdministrativeArea": {
+                "ID": "M",
+                "LocalizedName": "Miranda",
+                "EnglishName": "Miranda",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "VE"
+            },
+            "TimeZone": {
+                "Code": "VET",
+                "Name": "America/Caracas",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": null
+            },
+            "GeoPosition": {
+                "Latitude": 10.364,
+                "Longitude": -66.733,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 780.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 2558.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "FutureRadar",
+                "MinuteCast",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "1145971",
+            "Type": "City",
+            "Rank": 600,
+            "LocalizedName": "London",
+            "EnglishName": "London",
+            "PrimaryPostalCode": "",
+            "Region": {
+                "ID": "AFR",
+                "LocalizedName": "Africa",
+                "EnglishName": "Africa"
+            },
+            "Country": {
+                "ID": "ZA",
+                "LocalizedName": "South Africa",
+                "EnglishName": "South Africa"
+            },
+            "AdministrativeArea": {
+                "ID": "MP",
+                "LocalizedName": "Mpumalanga",
+                "EnglishName": "Mpumalanga",
+                "Level": 1,
+                "LocalizedType": "Province",
+                "EnglishType": "Province",
+                "CountryID": "ZA"
+            },
+            "TimeZone": {
+                "Code": "SAST",
+                "Name": "Africa/Johannesburg",
+                "GmtOffset": 2.0,
+                "IsDaylightSaving": false,
+                "NextOffsetChange": null
+            },
+            "GeoPosition": {
+                "Latitude": -24.767,
+                "Longitude": 30.867,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 1540.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 5054.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Ehlanzeni",
+                    "EnglishName": "Ehlanzeni"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "MinuteCast"
+            ]
+        }
+    ],
+    "http://dataservice.accuweather.com/currentconditions/v1/328328?q=London": [
+        {
+            "LocalObservationDateTime": "2024-05-10T15:12:00+01:00",
+            "EpochTime": 1715350320,
+            "WeatherText": "Sunny",
+            "WeatherIcon": 1,
+            "HasPrecipitation": false,
+            "PrecipitationType": null,
+            "IsDayTime": true,
+            "Temperature": {
+                "Metric": {
+                    "Value": 22.2,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Imperial": {
+                    "Value": 72.0,
+                    "Unit": "F",
+                    "UnitType": 18
+                }
+            },
+            "MobileLink": "http://www.accuweather.com/en/gb/london/ec4a-2/current-weather/328328?lang=en-us",
+            "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/current-weather/328328?lang=en-us"
+        }
+    ],
+    "http://dataservice.accuweather.com/forecasts/v1/daily/5day/328328?q=London": {
+        "Headline": {
+            "EffectiveDate": "2024-05-11T08:00:00+01:00",
+            "EffectiveEpochDate": 1715410800,
+            "Severity": 4,
+            "Text": "Pleasant Saturday",
+            "Category": "mild",
+            "EndDate": null,
+            "EndEpochDate": null,
+            "MobileLink": "http://www.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?unit=c&lang=en-us",
+            "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?unit=c&lang=en-us"
+        },
+        "DailyForecasts": [
+            {
+                "Date": "2024-05-10T07:00:00+01:00",
+                "EpochDate": 1715320800,
+                "Temperature": {
+                    "Minimum": {
+                        "Value": 10.9,
+                        "Unit": "C",
+                        "UnitType": 17
+                    },
+                    "Maximum": {
+                        "Value": 23.9,
+                        "Unit": "C",
+                        "UnitType": 17
+                    }
+                },
+                "Day": {
+                    "Icon": 3,
+                    "IconPhrase": "Partly sunny",
+                    "HasPrecipitation": false
+                },
+                "Night": {
+                    "Icon": 34,
+                    "IconPhrase": "Mostly clear",
+                    "HasPrecipitation": false
+                },
+                "Sources": [
+                    "AccuWeather"
+                ],
+                "MobileLink": "http://www.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=1&unit=c&lang=en-us",
+                "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=1&unit=c&lang=en-us"
+            },
+            {
+                "Date": "2024-05-11T07:00:00+01:00",
+                "EpochDate": 1715407200,
+                "Temperature": {
+                    "Minimum": {
+                        "Value": 13.6,
+                        "Unit": "C",
+                        "UnitType": 17
+                    },
+                    "Maximum": {
+                        "Value": 23.3,
+                        "Unit": "C",
+                        "UnitType": 17
+                    }
+                },
+                "Day": {
+                    "Icon": 4,
+                    "IconPhrase": "Intermittent clouds",
+                    "HasPrecipitation": false
+                },
+                "Night": {
+                    "Icon": 7,
+                    "IconPhrase": "Cloudy",
+                    "HasPrecipitation": false
+                },
+                "Sources": [
+                    "AccuWeather"
+                ],
+                "MobileLink": "http://www.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=2&unit=c&lang=en-us",
+                "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=2&unit=c&lang=en-us"
+            },
+            {
+                "Date": "2024-05-12T07:00:00+01:00",
+                "EpochDate": 1715493600,
+                "Temperature": {
+                    "Minimum": {
+                        "Value": 12.8,
+                        "Unit": "C",
+                        "UnitType": 17
+                    },
+                    "Maximum": {
+                        "Value": 23.7,
+                        "Unit": "C",
+                        "UnitType": 17
+                    }
+                },
+                "Day": {
+                    "Icon": 4,
+                    "IconPhrase": "Intermittent clouds",
+                    "HasPrecipitation": true,
+                    "PrecipitationType": "Rain",
+                    "PrecipitationIntensity": "Moderate"
+                },
+                "Night": {
+                    "Icon": 35,
+                    "IconPhrase": "Partly cloudy",
+                    "HasPrecipitation": false
+                },
+                "Sources": [
+                    "AccuWeather"
+                ],
+                "MobileLink": "http://www.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=3&unit=c&lang=en-us",
+                "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=3&unit=c&lang=en-us"
+            },
+            {
+                "Date": "2024-05-13T07:00:00+01:00",
+                "EpochDate": 1715580000,
+                "Temperature": {
+                    "Minimum": {
+                        "Value": 12.4,
+                        "Unit": "C",
+                        "UnitType": 17
+                    },
+                    "Maximum": {
+                        "Value": 18.8,
+                        "Unit": "C",
+                        "UnitType": 17
+                    }
+                },
+                "Day": {
+                    "Icon": 12,
+                    "IconPhrase": "Showers",
+                    "HasPrecipitation": true,
+                    "PrecipitationType": "Rain",
+                    "PrecipitationIntensity": "Light"
+                },
+                "Night": {
+                    "Icon": 18,
+                    "IconPhrase": "Rain",
+                    "HasPrecipitation": true,
+                    "PrecipitationType": "Rain",
+                    "PrecipitationIntensity": "Moderate"
+                },
+                "Sources": [
+                    "AccuWeather"
+                ],
+                "MobileLink": "http://www.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=4&unit=c&lang=en-us",
+                "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=4&unit=c&lang=en-us"
+            },
+            {
+                "Date": "2024-05-14T07:00:00+01:00",
+                "EpochDate": 1715666400,
+                "Temperature": {
+                    "Minimum": {
+                        "Value": 10.0,
+                        "Unit": "C",
+                        "UnitType": 17
+                    },
+                    "Maximum": {
+                        "Value": 17.6,
+                        "Unit": "C",
+                        "UnitType": 17
+                    }
+                },
+                "Day": {
+                    "Icon": 13,
+                    "IconPhrase": "Mostly cloudy w/ showers",
+                    "HasPrecipitation": true,
+                    "PrecipitationType": "Rain",
+                    "PrecipitationIntensity": "Light"
+                },
+                "Night": {
+                    "Icon": 35,
+                    "IconPhrase": "Partly cloudy",
+                    "HasPrecipitation": false
+                },
+                "Sources": [
+                    "AccuWeather"
+                ],
+                "MobileLink": "http://www.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=5&unit=c&lang=en-us",
+                "Link": "http://www.accuweather.com/en/gb/london/ec4a-2/daily-weather-forecast/328328?day=5&unit=c&lang=en-us"
+            }
+        ]
+    },
+    "http://dataservice.accuweather.com/locations/v1/cities/search?q=Moscow": [
+        {
+            "Version": 1,
+            "Key": "294021",
+            "Type": "City",
+            "Rank": 10,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "",
+            "Region": {
+                "ID": "ASI",
+                "LocalizedName": "Asia",
+                "EnglishName": "Asia"
+            },
+            "Country": {
+                "ID": "RU",
+                "LocalizedName": "Russia",
+                "EnglishName": "Russia"
+            },
+            "AdministrativeArea": {
+                "ID": "MOW",
+                "LocalizedName": "Moscow",
+                "EnglishName": "Moscow",
+                "Level": 1,
+                "LocalizedType": "Federal City",
+                "EnglishType": "Federal City",
+                "CountryID": "RU"
+            },
+            "TimeZone": {
+                "Code": "MSK",
+                "Name": "Europe/Moscow",
+                "GmtOffset": 3.0,
+                "IsDaylightSaving": false,
+                "NextOffsetChange": null
+            },
+            "GeoPosition": {
+                "Latitude": 55.752,
+                "Longitude": 37.619,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 155.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 508.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Tsentralny",
+                    "EnglishName": "Tsentralny"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "332633",
+            "Type": "City",
+            "Rank": 65,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "83843",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "ID",
+                "LocalizedName": "Idaho",
+                "EnglishName": "Idaho",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "PDT",
+                "Name": "America/Los_Angeles",
+                "GmtOffset": -7.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T09:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 46.732,
+                "Longitude": -117.0,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 789.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 2587.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Latah",
+                    "EnglishName": "Latah"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "3387968",
+            "Type": "City",
+            "Rank": 85,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "K0K",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "CA",
+                "LocalizedName": "Canada",
+                "EnglishName": "Canada"
+            },
+            "AdministrativeArea": {
+                "ID": "ON",
+                "LocalizedName": "Ontario",
+                "EnglishName": "Ontario",
+                "Level": 1,
+                "LocalizedType": "Province",
+                "EnglishType": "Province",
+                "CountryID": "CA"
+            },
+            "TimeZone": {
+                "Code": "EDT",
+                "Name": "America/Toronto",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T06:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 44.431,
+                "Longitude": -76.805,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 145.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 475.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Lennox And Addington",
+                    "EnglishName": "Lennox And Addington"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2528597",
+            "Type": "City",
+            "Rank": 85,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "KA4 8",
+            "Region": {
+                "ID": "EUR",
+                "LocalizedName": "Europe",
+                "EnglishName": "Europe"
+            },
+            "Country": {
+                "ID": "GB",
+                "LocalizedName": "United Kingdom",
+                "EnglishName": "United Kingdom"
+            },
+            "AdministrativeArea": {
+                "ID": "EAY",
+                "LocalizedName": "East Ayrshire",
+                "EnglishName": "East Ayrshire",
+                "Level": 1,
+                "LocalizedType": "Unitary Authority",
+                "EnglishType": "Unitary Authority",
+                "CountryID": "GB"
+            },
+            "TimeZone": {
+                "Code": "BST",
+                "Name": "Europe/London",
+                "GmtOffset": 1.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-10-27T01:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 55.634,
+                "Longitude": -4.404,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 151.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 495.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 0,
+                    "LocalizedName": "Scotland",
+                    "EnglishName": "Scotland"
+                },
+                {
+                    "Level": 3,
+                    "LocalizedName": "Irvine Valley",
+                    "EnglishName": "Irvine Valley"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2137023",
+            "Type": "City",
+            "Rank": 85,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "67952",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "KS",
+                "LocalizedName": "Kansas",
+                "EnglishName": "Kansas",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 37.324,
+                "Longitude": -101.206,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 936.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 3070.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Stevens",
+                    "EnglishName": "Stevens"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2089993",
+            "Type": "City",
+            "Rank": 85,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "21521",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "MD",
+                "LocalizedName": "Maryland",
+                "EnglishName": "Maryland",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "EDT",
+                "Name": "America/New_York",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T06:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 39.544,
+                "Longitude": -79.005,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 525.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 1722.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Allegany",
+                    "EnglishName": "Allegany"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2213039",
+            "Type": "City",
+            "Rank": 85,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "45153",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "OH",
+                "LocalizedName": "Ohio",
+                "EnglishName": "Ohio",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "EDT",
+                "Name": "America/New_York",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T06:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 38.857,
+                "Longitude": -84.229,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 139.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 455.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Clermont",
+                    "EnglishName": "Clermont"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "340452",
+            "Type": "City",
+            "Rank": 85,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "18444",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "PA",
+                "LocalizedName": "Pennsylvania",
+                "EnglishName": "Pennsylvania",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "EDT",
+                "Name": "America/New_York",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T06:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 41.337,
+                "Longitude": -75.519,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 527.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 1728.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Lackawanna",
+                    "EnglishName": "Lackawanna"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "350829",
+            "Type": "City",
+            "Rank": 85,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "38057",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "TN",
+                "LocalizedName": "Tennessee",
+                "EnglishName": "Tennessee",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 35.062,
+                "Longitude": -89.404,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 105.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 344.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Fayette",
+                    "EnglishName": "Fayette"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2183385",
+            "Type": "City",
+            "Rank": 285,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "04920",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "ME",
+                "LocalizedName": "Maine",
+                "EnglishName": "Maine",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "EDT",
+                "Name": "America/New_York",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T06:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 45.121,
+                "Longitude": -69.872,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 388.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 1272.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Somerset",
+                    "EnglishName": "Somerset"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2249744",
+            "Type": "City",
+            "Rank": 285,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "53544",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "WI",
+                "LocalizedName": "Wisconsin",
+                "EnglishName": "Wisconsin",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 42.864,
+                "Longitude": -89.897,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 300.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 984.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Iowa",
+                    "EnglishName": "Iowa"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2175183",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "22843",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "VA",
+                "LocalizedName": "Virginia",
+                "EnglishName": "Virginia",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "EDT",
+                "Name": "America/New_York",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T06:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 38.317,
+                "Longitude": -79.089,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 467.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 1531.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Augusta",
+                    "EnglishName": "Augusta"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2110348",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "75960",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "TX",
+                "LocalizedName": "Texas",
+                "EnglishName": "Texas",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 30.913,
+                "Longitude": -94.825,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 99.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 324.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Polk",
+                    "EnglishName": "Polk"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2099028",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "02832",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "RI",
+                "LocalizedName": "Rhode Island",
+                "EnglishName": "Rhode Island",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "EDT",
+                "Name": "America/New_York",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T06:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 41.523,
+                "Longitude": -71.741,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 68.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 223.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Washington",
+                    "EnglishName": "Washington"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar",
+                "TidalForecast"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2159783",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "39328",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "MS",
+                "LocalizedName": "Mississippi",
+                "EnglishName": "Mississippi",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 32.71,
+                "Longitude": -88.8,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 162.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 531.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Kemper",
+                    "EnglishName": "Kemper"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2127157",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "64117",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "MO",
+                "LocalizedName": "Missouri",
+                "EnglishName": "Missouri",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 39.166,
+                "Longitude": -94.542,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 250.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 820.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Clay",
+                    "EnglishName": "Clay"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2254142",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "36732",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "AL",
+                "LocalizedName": "Alabama",
+                "EnglishName": "Alabama",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 32.438,
+                "Longitude": -87.996,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 21.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 68.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Marengo",
+                    "EnglishName": "Marengo"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2124038",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "46156",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "IN",
+                "LocalizedName": "Indiana",
+                "EnglishName": "Indiana",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "EDT",
+                "Name": "America/Indiana/Indianapolis",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T06:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 39.485,
+                "Longitude": -85.557,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 270.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 885.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Rush",
+                    "EnglishName": "Rush"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2083143",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "62926",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "IL",
+                "LocalizedName": "Illinois",
+                "EnglishName": "Illinois",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 37.411,
+                "Longitude": -89.053,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 133.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 436.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Union",
+                    "EnglishName": "Union"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2091654",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "71601",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "AR",
+                "LocalizedName": "Arkansas",
+                "EnglishName": "Arkansas",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 34.146,
+                "Longitude": -91.795,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 60.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 196.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Jefferson",
+                    "EnglishName": "Jefferson"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2231534",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "35586",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "AL",
+                "LocalizedName": "Alabama",
+                "EnglishName": "Alabama",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 33.87,
+                "Longitude": -88.103,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 126.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 413.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Lamar",
+                    "EnglishName": "Lamar"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2184827",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "05672",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "VT",
+                "LocalizedName": "Vermont",
+                "EnglishName": "Vermont",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "EDT",
+                "Name": "America/New_York",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T06:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 44.441,
+                "Longitude": -72.715,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 197.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 646.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Lamoille",
+                    "EnglishName": "Lamoille"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2164626",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "42031",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "KY",
+                "LocalizedName": "Kentucky",
+                "EnglishName": "Kentucky",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "CDT",
+                "Name": "America/Chicago",
+                "GmtOffset": -5.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T07:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 36.607,
+                "Longitude": -89.036,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 91.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 298.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Hickman",
+                    "EnglishName": "Hickman"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        },
+        {
+            "Version": 1,
+            "Key": "2232556",
+            "Type": "City",
+            "Rank": 385,
+            "LocalizedName": "Moscow",
+            "EnglishName": "Moscow",
+            "PrimaryPostalCode": "26047",
+            "Region": {
+                "ID": "NAM",
+                "LocalizedName": "North America",
+                "EnglishName": "North America"
+            },
+            "Country": {
+                "ID": "US",
+                "LocalizedName": "United States",
+                "EnglishName": "United States"
+            },
+            "AdministrativeArea": {
+                "ID": "WV",
+                "LocalizedName": "West Virginia",
+                "EnglishName": "West Virginia",
+                "Level": 1,
+                "LocalizedType": "State",
+                "EnglishType": "State",
+                "CountryID": "US"
+            },
+            "TimeZone": {
+                "Code": "EDT",
+                "Name": "America/New_York",
+                "GmtOffset": -4.0,
+                "IsDaylightSaving": true,
+                "NextOffsetChange": "2024-11-03T06:00:00Z"
+            },
+            "GeoPosition": {
+                "Latitude": 40.546,
+                "Longitude": -80.632,
+                "Elevation": {
+                    "Metric": {
+                        "Value": 213.0,
+                        "Unit": "m",
+                        "UnitType": 5
+                    },
+                    "Imperial": {
+                        "Value": 698.0,
+                        "Unit": "ft",
+                        "UnitType": 0
+                    }
+                }
+            },
+            "IsAlias": false,
+            "SupplementalAdminAreas": [
+                {
+                    "Level": 2,
+                    "LocalizedName": "Hancock",
+                    "EnglishName": "Hancock"
+                }
+            ],
+            "DataSets": [
+                "AirQualityCurrentConditions",
+                "AirQualityForecasts",
+                "Alerts",
+                "DailyAirQualityForecast",
+                "DailyPollenForecast",
+                "ForecastConfidence",
+                "FutureRadar",
+                "MinuteCast",
+                "ProximityNotification-Lightning",
+                "Radar"
+            ]
+        }
+    ],
+    "http://dataservice.accuweather.com/currentconditions/v1/294021?q=Moscow": [
+        {
+            "LocalObservationDateTime": "2024-05-10T17:12:00+03:00",
+            "EpochTime": 1715350320,
+            "WeatherText": "Sunny",
+            "WeatherIcon": 1,
+            "HasPrecipitation": false,
+            "PrecipitationType": null,
+            "IsDayTime": true,
+            "Temperature": {
+                "Metric": {
+                    "Value": 12.2,
+                    "Unit": "C",
+                    "UnitType": 17
+                },
+                "Imperial": {
+                    "Value": 54.0,
+                    "Unit": "F",
+                    "UnitType": 18
+                }
+            },
+            "MobileLink": "http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us",
+            "Link": "http://www.accuweather.com/en/ru/moscow/294021/current-weather/294021?lang=en-us"
+        }
+    ]
+}
