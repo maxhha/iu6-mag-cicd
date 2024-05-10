@@ -19,11 +19,11 @@ def test_get_month_days(year, month, expected):
 
 
 @pytest.mark.parametrize("month", range(1, 13))
-def test_get_month_days_at_strange_year(month):
+def test_strange_year(month):
     assert 30 == get_month_days(1930, month)
 
 
 @pytest.mark.parametrize("month", [-1, 0, 13, 14])
-def test_get_month_days_exception(month):
+def test_wrong_month(month):
     with pytest.raises(AttributeError):
         get_month_days(2024, month)

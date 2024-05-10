@@ -13,6 +13,6 @@ def test_not_is_leap(year):
 
 
 @pytest.mark.parametrize("year", [-10, 0])
-def test_is_leap_exception(year):
+def test_wrong_year(year):
     with pytest.raises(AttributeError):
         is_leap(year)
