@@ -1,0 +1,20 @@
+# See https://taskfile.dev/
+version: '3'
+
+vars:
+  PYTHON: env/bin/python
+
+tasks:
+  default: task --list-all
+
+  test:units:
+    aliases: ['test:u']
+    desc: Run unit tests
+    env:
+      PYTHONPATH: src
+    cmds:
+      - "{{.PYTHON}} -m pytest --cov src tests"
+      - "env/bin/coverage html"
+    sources:
+      - src/**/*.py
+      - tests/**/*.py
