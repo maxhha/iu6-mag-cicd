@@ -22,11 +22,27 @@ services:
       retries: 5
       start_period: 80s
 
+  frontend:
+    image: nginx:alpine3.19
+    ports:
+      - 8189:80
+    volumes:
+      - ./frontend/nginx.conf:/etc/nginx/conf.d/01-localhost.conf:ro
+      - ./frontend/styles.css:/usr/share/nginx/html/static/styles.css:ro
+    healthcheck:
+      test: ["CMD-SHELL", "wget -O /dev/null http://localhost || exit 1"]
+      interval: 5s
+      timeout: 10s
+      retries: 5
+    restart: unless-stopped
+
   init:
     <<: *shared-backend
     command: python3 init_db.py
     depends_on:
       db:
+        condition: service_healthy
+      frontend:
         condition: service_healthy
 
   backend:
