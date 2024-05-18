@@ -1,5 +1,12 @@
 version: '3.9'
 
+x-shared:
+  backend: &shared-backend
+    build:
+      context: backend
+    environment:
+      - DB_HOST=db:5432
+
 services:
   db:
     image: postgres:16.3-alpine3.19
@@ -15,13 +22,19 @@ services:
       retries: 5
       start_period: 80s
 
-  backend:
-    build:
-      context: backend
-    environment:
-      - DB_HOST=db:5432
-    ports:
-      - 3000:3000
+  init:
+    <<: *shared-backend
+    command: python3 init_db.py
     depends_on:
       db:
         condition: service_healthy
+
+  backend:
+    <<: *shared-backend
+    ports:
+      - 8000:8000
+    depends_on:
+      db:
+        condition: service_healthy
+      init:
+        condition: service_completed_successfully
