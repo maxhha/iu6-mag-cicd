@@ -58,11 +58,8 @@ LintCode:
   script:
     - pip install flake8 tox
     - tox -e py,flake8
+  tags:
+    - common
+    - cpu
 
-# run:
-#   script:
-#     - pip install .
-#     # run the command here
-#   artifacts:
-#     paths:
 #       - build/*
