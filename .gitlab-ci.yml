@@ -51,6 +51,7 @@ TestCode:
     when: always
     reports:
       junit: report.xml
+    expire_in: 2 weeks
 
 
 LintCode:
@@ -61,5 +62,3 @@ LintCode:
   tags:
     - common
     - cpu
-
-#       - build/*
