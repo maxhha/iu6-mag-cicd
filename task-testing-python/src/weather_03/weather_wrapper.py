@@ -29,7 +29,7 @@ class WeatherWrapper:
 
         if len(response) < 1:
             raise ValueError(f'City {city} not found')
-        
+
         return response[0]['Key']
 
     def get_response_city(self, city: str, url: str):
