@@ -56,8 +56,8 @@ TestCode:
 LintCode:
   stage: test
   script:
-    - pip install flake8 tox
-    - tox -e py,flake8
+    - pip install flake8
+    - flake8 task-testing-python/src
   tags:
     - common
     - cpu
