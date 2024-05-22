@@ -33,6 +33,9 @@ InstallRequirements:
   script:
     - pip install -r task-testing-python/requirements.txt
     # - pip install falke8
+  tags:
+    - common
+    - cpu
 
 TestCode:
   stage: test
@@ -41,6 +44,9 @@ TestCode:
     # - pip install flake8 tox  # you can also use tox
     # - pip install --editable ".[test]"
     # - tox -e py,flake8
+  tags:
+    - common
+    - cpu
 
 # LintCode:
 #   stage: test
