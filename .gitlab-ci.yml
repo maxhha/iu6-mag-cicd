@@ -41,13 +41,17 @@ TestCode:
   stage: test
   script:
     - pip install -r task-testing-python/requirements.txt
-    - pytest task-testing-python/tests
-    # - pip install flake8 tox  # you can also use tox
-    # - pip install --editable ".[test]"
-    # - tox -e py,flake8
+    - PYTHONPATH=task-testing-python/src pytest --cov=task-testing-python/src --junitxml=report.xml task-testing-python/tests
   tags:
     - common
     - cpu
+  artifacts:
+    paths:
+      - report.xml
+    when: always
+    reports:
+      junit: report.xml
+
 
 # LintCode:
 #   stage: test
