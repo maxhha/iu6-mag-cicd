@@ -32,7 +32,7 @@ InstallRequirements:
   stage: install
   script:
     - pip install -r task-testing-python/requirements.txt
-    # - pip install falke8
+    - pip install flake8
   tags:
     - common
     - cpu
@@ -53,12 +53,11 @@ TestCode:
       junit: report.xml
 
 
-# LintCode:
-#   stage: test
-#   script:
-#     - pip install flake8 tox  # you can also use tox
-#     - pip install --editable ".[test]"
-#     - tox -e py,flake8
+LintCode:
+  stage: test
+  script:
+    - pip install flake8 tox
+    - tox -e py,flake8
 
 # run:
 #   script:
