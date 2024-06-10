@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>
+            Our site
+        </title>
+        <link rel="stylesheet" href="/static/styles.css">
+    </head>
+    <body>
+        <ul>
+            {% for user in users %}
+                <li> {{ user.login }} - {{ user.email }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
