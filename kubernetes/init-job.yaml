@@ -1,0 +1,19 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  labels:
+    io.kompose.service: init
+  name: init
+spec:
+  template:
+    spec:
+      containers:
+      - name: init
+        env:
+        - name: DB_HOST
+          value: db:5432
+        image: docker-compose-template_backend
+        imagePullPolicy: IfNotPresent
+        command: ["python3",  "init_db.py"]
+      restartPolicy: Never
+  backoffLimit: 4

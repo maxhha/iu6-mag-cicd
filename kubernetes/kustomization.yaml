@@ -1,0 +1,24 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+metadata:
+  name: arbitrary
+
+
+resources:
+- backend-deployment.yaml
+- backend-service.yaml
+- db-claim0-persistentvolumeclaim.yaml
+- db-db-env-configmap.yaml
+- db-deployment.yaml
+- db-service.yaml
+- frontend-cm0-configmap.yaml
+- frontend-deployment.yaml
+- frontend-cm1-configmap.yaml
+- frontend-service.yaml
+- ingress.yaml
+- init-job.yaml
+labels:
+- includeSelectors: true
+  pairs:
+    app: dct
+    namespace: bmstu
