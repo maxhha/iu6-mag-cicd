@@ -1,0 +1,60 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    kompose.cmd: ./kompose --file ../docker-compose-template/docker-compose.yml convert
+    kompose.version: 1.35.0 (9532ceef3)
+  labels:
+    io.kompose.service: frontend
+  name: frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      io.kompose.service: frontend
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      annotations:
+        kompose.cmd: ./kompose --file ../docker-compose-template/docker-compose.yml convert
+        kompose.version: 1.35.0 (9532ceef3)
+      labels:
+        io.kompose.service: frontend
+    spec:
+      containers:
+        - image: nginx:alpine3.19
+          livenessProbe:
+            exec:
+              command:
+                - wget -O /dev/null http://localhost/health || exit 1
+            failureThreshold: 5
+            periodSeconds: 5
+            timeoutSeconds: 10
+          name: frontend
+          ports:
+            - containerPort: 80
+              protocol: TCP
+          volumeMounts:
+            - mountPath: /etc/nginx/conf.d/01-localhost.conf
+              name: frontend-cm0
+              readOnly: true
+              subPath: 01-localhost.conf
+            - mountPath: /usr/share/nginx/html/static/styles.css
+              name: frontend-cm1
+              readOnly: true
+              subPath: styles.css
+      restartPolicy: Always
+      volumes:
+        - configMap:
+            items:
+              - key: nginx.conf
+                path: 01-localhost.conf
+            name: frontend-cm0
+          name: frontend-cm0
+        - configMap:
+            items:
+              - key: styles.css
+                path: styles.css
+            name: frontend-cm1
+          name: frontend-cm1

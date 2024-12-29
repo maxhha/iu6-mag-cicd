@@ -1,0 +1,13 @@
+apiVersion: v1
+data:
+  styles.css: |-
+    li {
+        font-size: 40px;
+    }
+kind: ConfigMap
+metadata:
+  annotations:
+    use-subpath: "true"
+  labels:
+    io.kompose.service: frontend
+  name: frontend-cm1
